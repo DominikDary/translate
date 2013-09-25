@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+
+    <string name="app_name">Selendroid Translate</string>
+    <string name="hello">Hello</string>
+    <string name="good_morning">Hello</string>
+    <string name="bye">bye</string>
+
+</resources>

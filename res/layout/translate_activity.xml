@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Selendroid Translate" />
+
+    <EditText
+        android:id="@+id/translationKeyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="translationKeyInputCD"
+        android:ems="10" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/translateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="translateContainerContentDescription" >
+
+        <Button
+            android:id="@+id/translateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="translateButtonCD"
+            android:longClickable="true"
+            android:onClick="translateKeyword"
+            android:text="translate" />
+
+        <TextView
+            android:id="@+id/translationOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="avaialble keys are:\n- good_morning\n- bye\n- hello" />
+
+</LinearLayout>
